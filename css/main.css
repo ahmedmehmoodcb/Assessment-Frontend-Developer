@@ -52,13 +52,20 @@ body {
     font-weight: 400;
     border: 1px solid #fff;
 }
-.main_heading {}
-
+.main_heading {
+    font-size: 60px;
+    color: #6bb244;
+    font-weight: bold;
+}
+.main_section p {
+    color: #444444;
+    font-size: 16px;
+}
 .main_section {
     margin-top: 4rem;
     padding-bottom: 3rem;
 }
-a.btn.learn_more {
+.btn.learn_more {
     background: #6bb244;
     color: #fff;
     padding: 9px 60px;
@@ -69,3 +76,72 @@ a.btn.learn_more {
     background: #6bb244;
     padding: 1.5rem 0;
 }
+.User_txt {
+    font-size: 30px;
+    color: #fff;
+    align-content: center;
+}
+.fm_heading_fr {
+    font-size: 60px;
+    color: #6bb244;
+}
+.fm_heading_se {
+    font-size: 80px;
+    color: #6bb244;
+}
+.contact_Form {
+    padding: 4rem 0rem;
+}
+.contact-form-wrapper .form-Style {
+    border: 1px solid #000 !important;
+}
+input.form-control.form-input.form-Style::placeholder {
+    color: #000;
+  }
+  textarea::placeholder  {
+    color: #000 !important;
+  }
+  .footer {position: relative;}
+  .footer:before {
+    content: "";
+    background: url(/assets/Footer_Img.png) no-repeat;
+    width: 100%;
+    left: 0;
+    height: 257px;
+    position: absolute;
+}
+button.navbar-toggler {
+    border: 0;
+    color: #fff;
+    background: #fff;
+}
+@media screen and (max-width:991px) and (min-width: 320px){
+    .top-Section:before {background: none;}
+    .top-Section:after {background: none;}
+    .Mobile_new {background: #fff; box-shadow: 0px -1px 6px #00000054;}
+    .navbar-Style { margin: 0; }
+    .top-header.top-header .btn-demo {
+        background: #6bb244;
+        display: flex;
+        width: 100%;
+        color: #fff;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .mobile_Txt_User {text-align: center;justify-content: center;margin-bottom: 12px;}
+    .fm_heading_fr {font-size: 40px;}
+    .fm_heading_se {font-size: 60px;}
+    .mobile_Txt_User {text-align: center;}
+    .navbar-Style li {margin: 0;}
+    .mobile_img {margin-top: 1rem;}
+    .mobile_img img { margin-bottom: 20px;}
+    .top-header.top-header .btn-login {background: #6bb244;}
+    .footer:before { height: 77px;}
+}
+@media screen and (max-width:375px) and (min-width: 320px){
+    .contact-form-wrapper {padding: 10px;}
+    .fm_heading_fr {font-size: 30px;}
+    .fm_heading_se {font-size: 40px;}
+    .main_heading {font-size: 38px;}
+}
+
