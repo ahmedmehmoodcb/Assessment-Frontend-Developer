@@ -1,0 +1,71 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {}
+.top-Section {
+    position: relative;
+}
+.top-Section:after {
+    position: absolute;
+    top:0;
+    z-index: -1;
+    right:0;
+    height: 100%;
+    width: 696px;
+    content: "";
+    background: url(../assets/right-side.png) no-repeat;
+}
+.top-Section:before {
+    position: absolute;
+    z-index: -1;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: url(../assets/left-side.png) no-repeat;
+}
+.navbar-Style {
+    margin-top: 10px;
+    margin-left: 6%;
+}
+.navbar-Style li {margin: 0 12px;}
+.navbar-Style li a {
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    font-size: 18px;
+}
+.top-header.top-header .btn-demo {
+    background: #fff;
+    border-radius: 25px;
+    padding: 4px 24px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.top-header.top-header .btn-login {
+    color: #fff;
+    border-radius: 25px;
+    padding: 4px 24px;
+    font-weight: 400;
+    border: 1px solid #fff;
+}
+.main_heading {}
+
+.main_section {
+    margin-top: 4rem;
+    padding-bottom: 3rem;
+}
+a.btn.learn_more {
+    background: #6bb244;
+    color: #fff;
+    padding: 9px 60px;
+    border-radius: 24px;
+    margin: 12px 0;
+}
+.Our_User_section {
+    background: #6bb244;
+    padding: 1.5rem 0;
+}
